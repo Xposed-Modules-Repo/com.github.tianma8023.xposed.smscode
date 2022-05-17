@@ -1,0 +1,2 @@
+识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。
+An Xposed module which can recognize, parse SMS code and copy it to clipboard when a new message arrives. It can also input SMS code automatically.
