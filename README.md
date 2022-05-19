@@ -1,4 +1,6 @@
 # 验证码提取器(Xposed)
+![Total Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode/total) [![Total Stars](https://img.shields.io/github/stars/tianma8023/XposedSmsCode?style=social)](https://github.com/tianma8023/XposedSmsCode/) [![Latest Release](https://img.shields.io/github/v/release/tianma8023/XposedSmsCode?label=Latest%20Release)](https://github.com/tianma8023/XposedSmsCode/releases)
+
 识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。
 
 # XposedSmsCode
