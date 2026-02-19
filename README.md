@@ -1,9 +1,13 @@
 # XposedSmsCode
-![Total Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode/total) [![Total Stars](https://img.shields.io/github/stars/tianma8023/XposedSmsCode?style=social)](https://github.com/tianma8023/XposedSmsCode/) [![Latest Release](https://img.shields.io/github/v/release/tianma8023/XposedSmsCode?label=Latest%20Release)](https://github.com/tianma8023/XposedSmsCode/releases)
+
+<div align="center">
+
+![Total Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode/total) [![Latest Release](https://img.shields.io/github/v/release/magisk317/XposedSmsCode?include_prereleases&label=Latest%20Release)](https://github.com/magisk317/XposedSmsCode/releases) [![Stars](https://img.shields.io/github/stars/magisk317/XposedSmsCode?style=social)](https://github.com/magisk317/XposedSmsCode)
+
+</div>
 
 识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。
 
-# XposedSmsCode
 An Xposed module which can recognize, parse SMS code and copy it to clipboard when a new message arrives. It can also input SMS code automatically.
 
 # 功能
@@ -29,7 +33,7 @@ An Xposed module which can recognize, parse SMS code and copy it to clipboard wh
 - Auto-input SMS code.
 
 # 更多
-参考: [详细信息](https://github.com/tianma8023/XposedSmsCode/blob/master/README-CN.md)
+参考: [详细信息](https://github.com/magisk317/XposedSmsCode/blob/dev/README.md)
 
 # More
-refer to [More Information](https://github.com/tianma8023/XposedSmsCode/blob/master/README.md)
+refer to [More Information](https://github.com/magisk317/XposedSmsCode/blob/dev/README-EN.md)
