@@ -21,6 +21,8 @@
 
 识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。
 
+如果你还需要将验证码、短信内容或应用通知进一步转发到 Telegram、Webhook、邮箱等通道，可以了解一下新项目 [信驿 Relay](https://github.com/magisk317/xinyi-relay)。它更偏向消息转发与验证码联动场景；若主要需求是验证码识别与自动输入，继续使用本项目会更合适。
+
 [English Version](https://github.com/magisk317/XposedSmsCode/blob/dev/README-EN.md)
 
 # 应用截图
