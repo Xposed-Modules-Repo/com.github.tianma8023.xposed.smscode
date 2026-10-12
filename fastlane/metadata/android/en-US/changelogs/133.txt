@@ -1,0 +1,6 @@
+- Updated to 3.3.9 (133).
+- Added QQ channel activation entry and streamlined activation flow.
+- Fixed Play flavor verification at the hook boundary.
+- Shared activation UI and log tracking logic into submodules.
+- Upgraded Gradle 9.9.0-M2 and build dependencies.
+- https://gitlab.com/magisk3171/XposedSmsCode/-/releases

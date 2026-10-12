@@ -3,6 +3,18 @@
 本日志记录了项目重构后的主要变更。
 
 ---
+## [v3.3.9] - 2026-10-12
+- 版本：`versionCode 133` / `versionName 3.3.9`。
+- `[feat]` 新增 QQ 频道激活入口，简化激活页面交互。
+- `[fix]` 修复 Play 渠道在 Hook 进程中的跨进程校验异常。
+- `[refactor]` 将激活界面与日志开关追踪等逻辑共享到子模块。
+- `[build]` 升级 Gradle 9.9.0-M2 与 AGP 9.5.0-alpha09。
+- `[ci]` 优化 Android 构建流水线与测试任务选择。
+
+> Full Changelog: https://gitlab.com/magisk3171/XposedSmsCode/-/compare/v3.3.8...v3.3.9
+
+---
+
 ## [v3.3.8] - 2026-10-10
 - 版本：`versionCode 132` / `versionName 3.3.8`。
 - `[fix]` 修复数据库升级迁移与历史表结构兼容问题。
