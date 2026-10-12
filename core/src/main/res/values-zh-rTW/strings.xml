@@ -481,18 +481,10 @@
     <string name="settings_group_others">其他</string>
     <string name="mobile_entitlement_settings_title">裝置啟用狀態</string>
     <string name="mobile_entitlement_settings_summary">查看狀態或啟用此裝置</string>
-    <string name="mobile_entitlement_title">裝置啟用狀態</string>
-    <string name="mobile_entitlement_status">啟用狀態：%1$s</string>
-    <string name="mobile_entitlement_automation">功能狀態：%1$s</string>
-    <string name="mobile_entitlement_allowed">可用</string>
-    <string name="mobile_entitlement_paused">已暫停</string>
     <string name="mobile_entitlement_expires">到期時間：%1$s</string>
     <string name="mobile_entitlement_renew_due">可以更新啟用狀態。</string>
-    <string name="mobile_entitlement_refresh">重新整理狀態</string>
-    <string name="mobile_entitlement_activate_telegram">跳轉 Telegram</string>
     <string name="mobile_entitlement_copy_link">複製啟用連結</string>
     <string name="mobile_entitlement_link_copied">跳轉連結複製成功</string>
-    <string name="mobile_entitlement_jump_failed_copied">無法開啟 Telegram，已複製跳轉連結，請手動傳送給機器人</string>
     <string name="mobile_entitlement_activate_google">透過 Google 啟用</string>
     <string name="mobile_entitlement_telegram_required">透過 Google 啟用還需要加入官方 Telegram 頻道。</string>
     <string name="mobile_entitlement_open_telegram">開啟 Telegram</string>
@@ -501,7 +493,6 @@
     <string name="mobile_entitlement_not_loaded">未載入</string>
     <string name="mobile_entitlement_poll_failed">啟用檢查失敗，正在重試...</string>
     <string name="mobile_entitlement_challenge_expired">啟用要求已過期。</string>
-    <string name="mobile_entitlement_error">要求失敗：%1$s</string>
 
     <!-- backup and restore -->
     <string name="pref_backup_title">備份</string>

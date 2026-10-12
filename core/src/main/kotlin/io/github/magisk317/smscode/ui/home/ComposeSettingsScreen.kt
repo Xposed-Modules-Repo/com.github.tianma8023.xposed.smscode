@@ -61,7 +61,7 @@ import io.github.magisk317.smscode.runtime.common.diagnostics.ActivationDiagnost
 import io.github.magisk317.smscode.runtime.common.prefs.AppPreferencesDataStore
 import io.github.magisk317.smscode.common.utils.RuntimeDiagnosticsBridge
 import io.github.magisk317.smscode.runtime.common.diagnostics.LogBundleExporter
-import io.github.magisk317.smscode.runtime.common.diagnostics.VerboseLogEnableTracker
+import io.github.magisk317.xposed.logging.VerboseLogEnableTracker
 import io.github.magisk317.smscode.runtime.RuntimeBackupImportStatus
 import io.github.magisk317.smscode.runtime.bridge.UiBackupAccess
 import io.github.magisk317.smscode.runtime.bridge.UiNotificationAccess
