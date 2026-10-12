@@ -20,7 +20,8 @@ run_pre_push_checks() {
     :app:compilePlayDebugAndroidTestKotlin \
     :core:compilePlayDebugUnitTestKotlin \
     :core:generatePlayDebugUnitTestStubRFile \
-    :runtime:compileDebugAndroidTestKotlin \
+    :runtime:compileGithubDebugAndroidTestKotlin \
+    :runtime:compilePlayDebugAndroidTestKotlin \
     :app:assembleGithubDebug \
     -PbuildSplits
 }
