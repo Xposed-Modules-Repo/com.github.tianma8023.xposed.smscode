@@ -110,6 +110,9 @@ class SmsCodeApplication : Application() {
                         "os.name" to "android",
                         "os.version" to Build.VERSION.RELEASE,
                         "os.api_level" to Build.VERSION.SDK_INT.toString(),
+                        // Lets the cloud side split play from sideload installs,
+                        // which share version and commit.
+                        "distribution.channel" to BuildConfig.MOBILE_ENTITLEMENT_CHANNEL,
                     ),
                 projectId = "83955172",
                 projectName = "XposedSmsCode",
@@ -269,6 +272,14 @@ class SmsCodeApplication : Application() {
             "handleXposedServiceBound() called: framework=$frameworkName version=$frameworkVersion provider=${remotePrefsProvider != null}",
         )
         AppPreferencesDataStore.setRemotePrefsProvider(remotePrefsProvider)
+        // Publishes attempted before the service bound are marked pending rather
+        // than dropped. The provider is live now, so flush them; otherwise the
+        // hook process keeps reading a mirror written before the last change.
+        if (AppPreferencesDataStore.hasPendingRemotePrefsPublish()) {
+            applicationScope.launch {
+                HookPreferenceMirror.publish(this@SmsCodeApplication)
+            }
+        }
         ModuleUtils.setRuntimeActivated(true)
         ModuleActivationStore.markActivated(this)
         ActivationDiagnosticsStore.recordServiceBind(
